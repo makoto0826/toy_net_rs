@@ -1,0 +1,8 @@
+[package]
+name = "toy_net_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+socket2 = { version = "0.4.7", features = ["all"] }
+thiserror = "1.0.37"
